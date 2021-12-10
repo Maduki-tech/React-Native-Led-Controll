@@ -1,15 +1,13 @@
-import React from 'react'
-import { View, Text } from 'react-native'
-import ButtonControll from '../Components/ButtonControll'
-import Head from '../Components/Header'
-import ScreenControll from '../Components/ScreenControll'
+import React from "react";
+import { View, Text } from "react-native";
+import ButtonTile from "../Components/ButtonTile";
+import Controller from "../Components/Controller";
 
 export default function LedControll() {
-    return (
-        <View>
-            <Head/>
-            <ScreenControll/>
-            {/* <ButtonControll/>  */}
-        </View>
-    )
+  return (
+    <View>
+      <Controller />
+      <ButtonTile />
+    </View>
+  );
 }
